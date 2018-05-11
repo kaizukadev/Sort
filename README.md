@@ -1,5 +1,4 @@
-﻿![FinalResult](/data/FR.jpg)
-<!--/* ssssss*/--!>
+<!-- ﻿![FinalResult](/data/FR.jpg)  --!>
 Trabalho Final
 ==============
 
