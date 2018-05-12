@@ -1,13 +1,15 @@
-![Sort](/data/sort.gif)
+![Sort](/data/sort.png)
+
 
 Primeiro Trabalho e APS01
 ==========================
 
-
 ## Objetivo:
+
 Desenvolver uma classe de lista duplamente encadeada que permite armazenar tipos de dados genéricos, e pode ter seus elementos ordenados de forma arbitrária.
 
 ## Tarefas:
+
 - Implementar uma classe que represente uma lista duplamente encadeada.
 
 - Implementar nesta classe um método “efficientSort” que aceite como parâmetro um objeto que representa o método de comparação entre dois elementos armazenados na lista, e implementa um dos algoritmos eficientes de ordenação.
