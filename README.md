@@ -20,15 +20,16 @@ Desenvolver uma classe de lista duplamente encadeada que permite armazenar tipos
 
 - Escreva um programa de teste para a lista que mostre que os dois algoritmos de ordenação funcionam corretamente.
 
+
 ## Entrega:
 
 Deve ser criado um repositório no Github para a entrega deste trabalho, e o link para acesso ao repositório deve ser inserido no campo de comentários do Blackboard, quando da entrega.
 
-##Atividade Prática Supervisionada:
+## Atividade Prática Supervisionada:
 
 Além do primeiro conceito, este trabalho irá contar como uma APS de 6h (equivalente a DUAS aulas).
 
-##OBSERVAÇÃO:
+## OBSERVAÇÃO:
 
 O trabalho deve ser entregue até ANTES da aula marcada para a entrega.
 
