@@ -1,4 +1,5 @@
-![FinalResult](/data/sort.gif)
+![Sort](/data/sort.gif)
+
 Primeiro Trabalho e APS01
 ==========================
 
