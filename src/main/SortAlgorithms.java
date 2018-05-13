@@ -31,6 +31,8 @@
 package main;
 
 import java.io.FileReader;
+import java.util.Arrays;
+
 import comparators.SearchByAgeAndCity;
 import comparators.SearchByEmail;
 import comparators.SearchByName;
@@ -57,6 +59,12 @@ public class SortAlgorithms {
 		FileReader arquivo = snf.Tools.leitorArquivo(arqCSV);
 		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo, new SortedByReading());
 		lista.printObjects(" ** LISTA ENCADEADA - Original **");
+		
+
+		int [] vet = {4,6,9,8,1,3,5,2,0,7};
+		System.out.println(Arrays.toString(vet));
+		System.err.println(Arrays.toString(Sorters.insertionSort(vet)));
+		
 		
 		
 	}
