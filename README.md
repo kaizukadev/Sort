@@ -1,4 +1,4 @@
-![Sort](/data/uc.jpg)
+![Sort](/data/UC.jpg)
 
 
 Primeiro Trabalho e APS01
@@ -10,7 +10,7 @@ Desenvolver uma classe de lista duplamente encadeada que permite armazenar tipos
 
 ## Tarefas:
 
-- Implementar uma classe que represente uma lista duplamente encadeada.
+- ~~Implementar uma classe que represente uma lista duplamente encadeada.~~
 
 - Implementar nesta classe um método <b>“efficientSort”</b> que aceite como parâmetro um objeto que representa o método de comparação entre dois elementos armazenados na lista, e implementa um dos algoritmos eficientes de ordenação.
 
