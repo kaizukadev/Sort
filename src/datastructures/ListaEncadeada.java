@@ -98,9 +98,9 @@ public class ListaEncadeada<T>{
 			while (key != null) {
 				j = key.getPrevious();
 
-				while ( j != null && cmp.compare(j.getData(),key.getData()) > 0) {
-					this.trocarNos(j,key);
-			    }
+//				while ( j != null && cmp.compare(j.getData(),key.getData()) > 0) {
+//					this.trocarNos(j,key);
+//			    }
 				
 				j.setNext(key);
 				
