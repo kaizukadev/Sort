@@ -32,16 +32,10 @@ package main;
 
 import java.io.FileReader;
 import java.util.Arrays;
-
-import comparators.SearchByAgeAndCity;
-import comparators.SearchByEmail;
-import comparators.SearchByName;
-import comparators.SortedByReading;
+import java.util.Comparator;
+import comparators.SortedByName;
 import datastructures.ListaEncadeada;
-import interfaces.Iterador;
 import model.Aluno;
-import predicates.GenderAndAgePredicate;
-import predicates.NamePredicate;
 
 public class SortAlgorithms {
 
@@ -57,14 +51,22 @@ public class SortAlgorithms {
 		String arqCSV = "data/alunos.csv";
 
 		FileReader arquivo = snf.Tools.leitorArquivo(arqCSV);
-		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo, new SortedByReading());
+		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo);
+//		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo, new SortedByReading());
 		lista.printObjects(" ** LISTA ENCADEADA - Original **");
-		
 
 		int [] vet = {4,6,9,8,1,3,5,2,0,7};
 		System.out.println(Arrays.toString(vet));
-		System.err.println(Arrays.toString(Sorters.insertionSort(vet)));
+		System.out.println(Arrays.toString(Sorters.insertionSort(vet)));
 		
+		Aluno a1 = new Aluno("001","Sérgio","aaa@gmail.com",53,"male","E1","C1");
+		Aluno a2 = new Aluno("005","Antônio","bbb@gmail.com",22,"male","E2","C2");
+		Comparator<Aluno> cmp = new SortedByName(); 
+		System.out.println("\n" + cmp.compare(a1, a2));
+		
+		
+//		lista.stableSort(new SortedByName());
+//		lista.printObjects(" ** LISTA ENCADEADA - Classificada por Insertion Sort **");
 		
 		
 	}
